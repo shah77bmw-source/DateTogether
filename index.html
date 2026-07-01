@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title>💖 Date Together</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div id="loader">
+
+<div class="loaderHeart">
+❤️
+</div>
+
+<div class="loaderText">
+Date Together
+</div>
+
+<div class="loaderBar">
+<span></span>
+</div>
+
+</div>
+    
+<div id="bg"></div>
+
+<div class="glass">
+
+<div class="logo">💖</div>
+
+<h1>Date Together</h1>
+
+<p>
+
+قبل از اینکه سورپرایزم رو ببینی...
+
+<br>
+
+اسمت رو برام بنویس 🌹
+
+</p>
+
+<input
+id="name"
+type="text"
+placeholder="اسمت..."
+maxlength="20"
+>
+
+<button onclick="start()">
+
+ادامه ❤️
+
+</button>
+
+</div>
+
+<audio id="music" preload="auto" controlsList="nodownload" style="display:none" loop>
+    <source src="assets/music/love.mp3" type="audio/mpeg">
+</audio>
+
+<button onclick="document.getElementById('music').play()">
+پخش
+</button>
+
+<script type="module" src="firebase.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
