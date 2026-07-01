@@ -1,5 +1,6 @@
 function start(){
-
+const music=document.getElementById("music");
+music?.play().catch(()=>{});
 let name=document.getElementById("name").value.trim();
 
 if(!name){
