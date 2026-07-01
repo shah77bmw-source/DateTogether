@@ -11,6 +11,8 @@ return;
 
 }
 
+answers.name = name;
+  
 document.querySelector(".glass").innerHTML=`
 
 <div class="logo">❤️</div>
